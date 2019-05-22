@@ -1,7 +1,7 @@
 var express = require('express');
 var router = express.Router();
 var mongojs = require('mongojs');
-var db = mongojs('mongodb://shashank:sharma990@ds131329.mlab.com:31329/meantodos', ['todos'])
+var db = mongojs('mongodb://adwait:upadhyay990@ds131329.mlab.com:31329/meantodos', ['todos'])
 
 // Find all
 
